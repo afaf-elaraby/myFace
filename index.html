@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Facebook Login or Sign Up</title>
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="css/pag2.css" />
+    <script src="js/main.js" defer></script>
+</head>
+<body>
+
+
+    
+  <section >
+    <div class="left">
+      <h1>facebook</h1>
+      <p>
+        Connect with friends and the world <br />
+        around you on Facebook.
+      </p>
+    </div>
+
+    <div class="right">
+      <form action="" id="siginForm">
+        <div>
+          <input type="email"name="" id="siginEmail"
+            placeholder="Email or Phone Number" />
+         
+          <p id="emailError">Please enter a valid email or phone number</p>
+        </div>
+        <div>
+            <div class="special">
+              <input
+                type="password"
+                name=""
+                id="siginPassword"
+                placeholder="Password"
+              />
+              <span >
+                <i class="fa-solid fa-eye" id="eye"></i>
+                <i class="fa-solid fa-eye-slash" id="eyeSlash"></i>
+            </span>
+            </div>
+
+            <p id="passwordError">Please enter a valid Password</p>
+          </div>
+          <div class="submit-container">
+            <a href="face.html" class="submit" id="logInbtn">Log In</a>
+            <!-- <p id="logError" style="display: none;">Please enter emai and password</p> -->
+            <a href="#" class="forget">Forget password?</a>
+          </div>
+          <div class="buttonCreate">
+            <button id="createAccount">create a new account</button>
+        </div>
+      </form>
+    </div>
+  </section>
+
+
+  <section class="second-sec">
+    <form action="">
+      <div class="form-title">
+        <div class="left-title">
+          <h3>Sign Up</h3>
+          <p>It’s quick and easy.</p>
+        </div>
+        <div class="right-title">
+          <span><i class="fa-solid fa-x fa-lg" id="close"></i></span>
+        </div>
+      </div>
+
+      <div class="names">
+        <div class="firstName">
+          <input type="text" name="" id="firstName" placeholder="First Name">
+          <span><i class="fa-solid fa-circle-exclamation" id="firstNameIcon"></i></span>
+        </div>
+        <div class="lastName">
+          <input type="text" name="" id="lastName" placeholder="Last Name">
+          <span><i class="fa-solid fa-circle-exclamation" id="lastNameIcon"></i></span>
+        </div>
+      </div>
+
+      <div class="mobile">
+        <input type="text" name="" id="mobile" placeholder="Mobile or Phone Number">
+        <span><i class="fa-solid fa-circle-exclamation" id="mobileIcon"></i></span>
+      </div>
+
+      <div class="newPass">
+        <input type="password" name="" id="newPass" placeholder="New Password">
+        <span><i class="fa-solid fa-circle-exclamation" id="newPassIcon"></i></span>
+      </div>
+
+      <div class="birth">
+        <h5>Birthday<i class="fa-solid fa-circle-question"></i></h5>
+        <div class="birthContainer">
+          <select name="" id="">
+            <option value="">Jan</option>
+            <option value="">Feb</option>
+            <option value="">Mar</option>
+            <option value="">Apr</option>
+            <option value="">May</option>
+            <option value="">June</option>
+            <option value="">July</option>
+            <option value="">Aug</option>
+            <option value="">Sep</option>
+            <option value="">Oct</option>
+            <option value="">Nov</option>
+            <option value="">Dec</option>
+          </select>
+          <select name="" id="">
+            <option value="">1</option>
+            <option value="">2</option>
+            <option value="">3</option>
+            <option value="">4</option>
+            <option value="">5</option>
+            <option value="">6</option>
+            <option value="">7</option>
+            <option value="">8</option>
+            <option value="">9</option>
+            <option value="">10</option>
+            <option value="">11</option>
+            <option value="">12</option>
+        </select>
+        <select name="" id="">
+          <option value="">1910</option>
+          <option value="">1920</option>
+          <option value="">1930</option>
+          <option value="">1940</option>
+          <option value="">1950</option>
+          <option value="">1960</option>
+          <option value="">1970</option>
+          <option value="">1980</option>
+          <option value="">1990</option>
+          <option value="">2000</option>
+          <option value="">2010</option>
+          <option value="">2020</option>
+        </select>
+      </div>
+
+      <div class="gender">
+        <h5>Gender<i class="fa-solid fa-circle-question"></i></h5>
+        <div class="gender-container">
+          <div class="female">
+            <label for="female">Female</label>
+            <input type="radio" name="gender" id="" value="female">
+        </div>
+        <div class="male">
+          <label for="female">Male</label>
+          <input type="radio" name="gender" id="" value="male">
+        </div>
+        <div class="custom">
+          <label for="female">Custom</label>
+          <input type="radio" name="gender" id="" value="custom">
+        </div>
+      </div>
+    </div>
+
+    <div class="last">
+      <p>People who use our service may have uploaded your contact information to Facebook. Learn more.</p>
+      <p>By clicking Sign Up, you agree to our Terms, Privacy Policy and Cookies Policy. You may receive SMS Notifications from us and can opt out any time.</p>
+    </div>
+
+    <div class="submit" id="siginUp">
+        <input type="submit" name="" id="" value="sigin up">
+      </div>
+
+    </div>
+  </form>
+</section>
+
+ </body>
+</html>
